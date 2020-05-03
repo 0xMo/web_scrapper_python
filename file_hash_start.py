@@ -73,6 +73,8 @@ def download_hash(page):
             print(f'File name: "{fname}" Downloaded successfully!')
         except urllib.error.HTTPError as err:
             print(f'File name: "{fname}" cannot be downloaded')
+        except OSError as err:
+            print(err)
 
     # check the founded files if there are bad by using them hashes
     print('\n[*] Bad files found in webpage\n')
@@ -95,7 +97,9 @@ def download_hash(page):
                 
                 print(f'File {fname} is a bad file')
         except urllib.error.HTTPError as err:
-            pass
+            print(err)
+        except urllib.error.URLError as err:
+            print(err)
             
         
 
