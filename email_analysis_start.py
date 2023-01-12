@@ -2,7 +2,7 @@
 # Desc:     extracts email addresses and IP numbers and phone number
 #           from a text file or web page; for example, from a saved
 #           email header
-# Author:   Mohammed Almouhanna
+# Author:   
 # date:     07/12/2018
 
 import sys, urllib.request, re
@@ -50,9 +50,9 @@ def findphones(page):
 def main():
     # url arguments for testing
     # un-comment one of the following 4 tests at a time
-    #sys.argv.append('http://www.napier.ac.uk/Pages/home.aspx')
-    sys.argv.append('http://asecuritysite.com/email01.txt')
-    #sys.argv.append('http://asecuritysite.com/email02.txt')
+    #sys.argv.append('http://')
+    sys.argv.append('http://')
+    #sys.argv.append('http://')
     #sys.argv.append('email_sample.txt')
     # Check args
     if len(sys.argv) != 2:
