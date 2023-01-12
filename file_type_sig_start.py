@@ -1,6 +1,6 @@
 # Script: file_type_sig_start.py
 # Desc:   Check file type signature against filename extension.
-# Author: Mohammed Almouhanna
+# Author: 
 # Modifed: 07/12/2018
 #
 import sys
