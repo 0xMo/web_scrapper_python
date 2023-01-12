@@ -1,6 +1,6 @@
 # Script:   webpage_get_start.py
 # Desc:     Fetches data from a webpage.
-# Author:   Mohammed Almouhanna
+# Author:   
 # Modified: 07/12/2018
 #
 import sys, urllib.request
@@ -15,7 +15,7 @@ def wget(url):
 
 def main():
     # set test url argument
-    sys.argv.append('http://www.napier.ac.uk/Pages/home.aspx')
+    sys.argv.append('http://')
     
     # Check args
     if len(sys.argv) != 2:
