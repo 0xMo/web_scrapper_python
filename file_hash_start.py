@@ -1,6 +1,6 @@
 # Script: file_hash_start.py
 # Desc:   Generate file hash signature -
-# Author: Mohammed Almouhanna
+# Author: 
 # modified: 07/12/2018
 #
 import sys
@@ -32,7 +32,7 @@ def download_hash(page):
     files = webpage_getlinks.print_filename(page)
 
     # create a varibale for the webpage URL
-    URL = 'http://www.soc.napier.ac.uk/~40009856/CW/'
+    URL = 'http://'
     
     # download the files
     n = 1
