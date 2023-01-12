@@ -1,7 +1,7 @@
 # Script:  dict_crack_start.py
 # Description: Cracks password hash using a dictionary attack.
 #              And find md5 hashes from a webpage
-# Author:  Mohammed Almouhanna
+# Author:  
 # Modified: 07/12/2018
 import sys
 import hashlib
