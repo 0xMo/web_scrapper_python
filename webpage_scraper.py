@@ -1,6 +1,6 @@
 # script:   webpage_scraper.py
 # disc:     Web scrapper that do many functions
-# author:   Mohammed Almouhanna
+# author:  
 # date:     07/12/2018
 
 import os
@@ -18,7 +18,7 @@ import file_type_sig_start
 
 def main():
     # temp testing url argument
-    sys.argv.append('http://www.soc.napier.ac.uk/~40009856/CW/')
+    sys.argv.append('http:')
     
     # get the source code of a webpage using 'webpage_get_start.py' module
     webpage = webpage_get_start.wget(sys.argv[1])
