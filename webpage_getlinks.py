@@ -1,7 +1,7 @@
 # Script:   webpage_getlinks.py
 # Desc:     Basic web site info gathering and analysis script.
 #           From a URL gets page content, and parses out hyperlinks.
-# Author:   Mohammed Almouhanna
+# Author:   
 # Modified: 07/12/2018
 
 import sys, os
@@ -42,7 +42,7 @@ def print_filename(page):
     
 def main():
     # temp testing url argument
-    sys.argv.append(r'http://www.napier.ac.uk')
+    sys.argv.append(r'http://')
 
     # Check args
     if len(sys.argv) != 2:
